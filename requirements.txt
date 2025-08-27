@@ -4,3 +4,8 @@ scikit-learn
 xgboost
 numpy
 matplotlib
+numpy
+scikit-learn
+statistics
+scipy
+sympy
