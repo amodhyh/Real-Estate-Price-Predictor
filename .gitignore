@@ -1,0 +1,33 @@
+# ── Generated data ──────────────────────────────────────────
+/Processed/
+processed_house_prices.csv
+
+# ── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# ── Jupyter ─────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── MLflow ──────────────────────────────────────────────────
+mlruns/
+mlflow.db
+
+# ── Terraform ───────────────────────────────────────────────
+infra/.terraform/
+infra/*.tfstate
+infra/*.tfstate.backup
+infra/.terraform.lock.hcl
+
+# ── AWS / secrets ────────────────────────────────────────────
+*.pem
+.env
+.env.*
+
+# ── IDE ──────────────────────────────────────────────────────
+.idea/
+.vscode/
